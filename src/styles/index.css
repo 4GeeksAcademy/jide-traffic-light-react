@@ -1,3 +1,11 @@
+.traffic-light{
+    background: black;
+    padding: 10px;
+    display: inline-block;
+    margin: auto;
+    border-radius: 5px;
+}
+
 .light{
     width: 100px;
     height: 100px;
