@@ -6,7 +6,9 @@ const Home = () => {
 	return (
 		<div className="traffic-light">
 			<div className="light red glow"></div>
+			<br/>
 			<div className="light yellow"></div>
+			<br/>
 			<div className="light green"></div>
 		</div>
 	);
