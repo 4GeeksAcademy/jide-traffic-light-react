@@ -5,11 +5,11 @@ const Home = () => {
 	const [ selectedColor, setSelectedColor ] = useState("red");
 	return (
 		<div className="traffic-light">
-			<div className="light red glow"></div>
+			<div className={"light red"+(selectedColor === "red") ? " glow" : ""}></div>
 			<br/>
-			<div className="light yellow"></div>
+			<div className={"light yellow"+(selectedColor === "yellow") ? " glow" : ""}></div>
 			<br/>
-			<div className="light green"></div>
+			<div className={"light green"+(selectedColor === "green") ? " glow" : ""}></div>
 		</div>
 	);
 };
