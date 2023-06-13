@@ -2,8 +2,12 @@
     background: black;
     padding: 10px;
     display: inline-block;
-    margin: auto;
-    border-radius: 5px;
+    border-radius: 8px;
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .light {

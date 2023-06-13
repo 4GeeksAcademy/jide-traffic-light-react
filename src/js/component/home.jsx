@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 
 //create your first component
 const Home = () => {
+	const [ selectedColor, setSelectedColor ] = useState("red");
 	return (
 		<div className="traffic-light">
 			<div className="light red glow"></div>
