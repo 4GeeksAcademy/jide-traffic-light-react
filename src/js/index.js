@@ -6,7 +6,8 @@ import ReactDOM from "react-dom";
 import "../styles/index.css";
 
 //import your own components
-import ColorSelector from "./component/colorselector.jsx";
+import Home from "./component/home.jsx";
+
 
 //render your react application
-ReactDOM.render(<ColorSelector />, document.querySelector("#app"));
+ReactDOM.render(<Home />, document.querySelector("#app"));
