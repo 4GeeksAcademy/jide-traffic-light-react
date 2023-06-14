@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Home = () => {
+const ColorSelector = () => {
 	const [ selectedColor, setSelectedColor ] = useState("red");
 
 	return (
@@ -23,4 +23,4 @@ const Home = () => {
 	);
 };
 
-export default Home;
+export default ColorSelector;
