@@ -1,12 +1,15 @@
 {
 	"name": "react-hello",
 	"version": "1.0.1",
+	"homepage": "https://4geeksacademy.github.io/jide-traffic-light-react",
 	"engines": {
 		"node": "16.x"
 	},
 	"description": "",
 	"main": "index.js",
 	"scripts": {
+		"predeploy" : "npm run build",
+		"deploy" : "gh-pages -d public",
 		"start": "webpack-dev-server --mode development",
 		"build": "webpack --mode development",
 		"deploy:github": "node deploy-to-github.js"
